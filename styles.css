@@ -1,0 +1,196 @@
+/* Master Styles */
+
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+
+}
+body, input[text], button {
+  color: #888;
+  font-family: Cambria, Georgia;
+}
+.badge{
+	background-color:#f6f6f6;
+}
+a {
+  cursor: pointer;
+  cursor: hand;
+}
+button {
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: auto;
+}
+
+/* Navigation link styles */
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: black;
+  border-radius: 4px;
+}
+nav a:visited, a:link {
+  color: black;
+}
+nav a:hover {
+  color: black;
+  background-color: black;
+}
+nav a.active {
+  color: black;
+}
+span.glyphicon.glyphicon-user
+{
+	color:#f8f8f8;
+	font-size:30px;
+	position: absolute;
+    right: 1%;
+	top:20%
+	
+}
+.vertical-menu {
+    width: 200px;
+    height: 55px;
+
+}
+
+.vertical-menu a {
+	margin-top:-18px;
+    background-color: #f8f8f8;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: black;
+    color: white;
+}
+.mainbody
+{
+	left:50%;
+	
+}
+.UserFroms
+{
+	display:none;
+}
+.logins
+{
+	display:block;
+}
+.container-fluid
+{
+margin-top:20px;
+margin-bottom:10px;
+	background-color:#ffffff;
+	color:#080808;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+	}
+
+.container-fluid .home-page
+{
+	border:1px solid #ccc;
+	border-radius:10px;
+	
+}
+.container-fluid .home-page  .toDO
+{
+	padding:5px;
+	margin:5px;
+	
+}
+.container-fluid .home-page  .add
+{
+	padding:10px;
+	margin:10px;
+	position:relative;
+	text-align:center;
+}
+.container-fluid .home-page  .toDO .main .toDOList .incomplete
+{
+	border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    background-color: #e8c30d78;
+}
+.container-fluid .home-page  .toDO .main .toDOList .complete
+{
+	border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+   background-color: #129e12d4;
+    color: white;
+}
+.container-fluid .home-page  .toDO .main .toDOList .incomplete .del
+{
+position: relative;
+    cursor: pointer;
+    right: 10%
+}
+.container-fluid .home-page  .toDO .main .toDOList .complete .del
+{
+position: relative;
+    cursor: pointer;
+    right: 10%
+}
+.container-fluid .home-page  .toDO .main .toDOList .toDoInput
+{
+	border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    background-color: #e8c30d78;
+}
+.container-fluid .home-page  .toDO .main .toDOList .toDoInput .input
+{
+	width:90%;
+}
+.container-fluid .home-page  .toDO .main .toDOList .btn-success
+{
+	padding-top: 5px;
+    padding-bottom: 5px;
+	margin-bottom: 5px;
+}
